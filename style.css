@@ -62,3 +62,73 @@ a {
     width: 700px;
     height: 410px;
 }
+
+.meet {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+#meet {
+    display: flex;
+    justify-content: center;
+}
+
+#geralt {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#yen {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#ciri {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#roach {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 16px;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 250px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: grey;
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#source {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 900;
+    padding-right: 48px;
+}

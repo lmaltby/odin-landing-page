@@ -1,0 +1,14 @@
+body {
+    background-image: url(./content-images/books.jpg);
+    color: black;
+    font-weight: 900;
+}
+
+.opaque {
+    padding: 4px;
+    background-color: rgb(250, 250, 250, .5);
+}
+
+a {
+    color: black;
+}

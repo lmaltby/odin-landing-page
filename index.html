@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Witcher Fan Site</title>
 </head>
 <body>
@@ -15,13 +15,13 @@
         <div class="links">
             <ul>
                 <li>
-                    <a href="placeholder">Book Series</a>
+                    <a href="./books.html">Book Series</a>
                 </li>
                 <li>
-                    <a href="placeholder">Netflix Show</a>
+                    <a href="https://www.netflix.com/title/80189685">Netflix Show</a>
                 </li>
                 <li>
-                    <a href="placeholder">Video Games</a>
+                    <a href="https://www.thewitcher.com/en">Video Games</a>
                 </li>
             </ul>
         </div>
@@ -31,7 +31,9 @@
             <h1>The Witcher</h1>
             <p>This is a fan site for The Witcher, both the book series 
                 and the videogames <em>(for there is no Netflix show in Ba Sing Se)</em>.</p>
-            <button id="path">Walk the Path</button>
+            <button id="path">
+                <a href="https://witcher.fandom.com/wiki/The_Path">Walk the Path</a>
+            </button>
         </div>
         <div class="image">
             <img id="mountains" src="./content-images/geralt_mountains.png" alt="Geralt in front of mountain range">
@@ -76,18 +78,28 @@
         <div id="source">
             <p>--Andrzej Sapkowski, The Last Wish</p>
         </div>
-              <!-- link book name to somewhere to purchase book? -->
     </div>
-    <div class="amazon">
-        <h2>Unsure if you're ready to Walk the Path of The Continent?</h2>
-        <p>Check out these articles reviewing the books and games.</p> 
-        <!-- make both buttons links to reviews -->
-        <button>Books Review</button>
-        <button>Games Review</button>
+    <div class="reviews">
+        <div id="unsure">
+            <h3>Unsure if you're ready to Walk the Path of The Continent?</h3>
+            <p>Check out these articles reviewing the books and games:</p> 
+        </div>
+        <button>
+            <a href="https://www.hypable.com/read-the-witcher-books-andzrej-sapkowski-4-reasons/">Books Review</a>
+        </button>
+        <button>
+            <a href="https://store.steampowered.com/app/20900/The_Witcher_Enhanced_Edition_Directors_Cut/#app_reviews_hash">The Witcher</a>
+        </button>
+        <button>
+            <a href="https://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/#app_reviews_hash">The Witcher 2</a>
+        </button>
+        <button>
+            <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/#app_reviews_hash">The Witcher 3</a>
+        </button>
     </div>
-    <footer>Copyright &copy <a href="https://github.com/lmaltby">lmaltby</a> 
+    <div class="footer">Copyright &copy <a href="https://github.com/lmaltby">lmaltby</a> 
         in conjunction with <a href="https://www.theodinproject.com/">TheOdinProject</a> 2023
-    </footer>
+    </div>
 </body>
 </html>
 

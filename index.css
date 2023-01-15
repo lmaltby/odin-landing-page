@@ -59,7 +59,9 @@ a {
     justify-content: space-evenly;
     padding: 16px;
 }
-
+button a {
+    text-decoration: none;
+}
 #path {
     height: 100px;
     width: 300px;
